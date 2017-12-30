@@ -1,0 +1,61 @@
+.App {
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.markdown-window {
+    display: flex;
+    height: 100vh;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+textarea:focus {
+    outline: none !important;
+}
+
+.common-rules-cell {
+    padding: 2em;
+    flex-basis: 50%;
+
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+
+hr {
+    height: 0.25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e1e4e8;
+    border: 0;
+}
+
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}
